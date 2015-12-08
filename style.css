@@ -1,0 +1,313 @@
+/*  
+
+Theme Name: Niming
+
+Theme URI: http://www.alphabetzero.com
+
+Description: This is my first theme.
+
+Version: 1.0
+
+Author: shek
+
+Author URI: http://www.alphabetzero.com
+
+*/
+body,h1,h2,h3,h4,h5,h6,blockquote,address,dd,dl,hr,form, p{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0px;
+	font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	font-size: 12px;
+	text-align: center;/*兼容性*/
+	vertical-align: top;/*所有东西从上面开始*/
+	background: #ffffff;
+	color: #000000;
+}
+h1{
+	font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	font-size: 24px;
+	padding: 0 0 10px 0;
+}
+a:link,a:visited{
+ 	text-decoration:none;/*所有连接去掉下划线*/
+ 	color: #000000;
+
+}
+a:ACTIVE,a:hover{
+	color: #ff8000;
+}
+p{
+	padding: 10px 0 0 0;/*日志段落填充10像素顶部填充*/
+}
+#wrapper{
+	margin: 0 auto 0 auto;
+	width: 100%;
+	text-align: left;
+
+
+}
+#header{
+	background:#808080;
+	border-bottom:silver 4px #c0c0c0;
+	border-left:solid 1px #c0c0c0;
+	border-right:solid 1px #c0c0c0;
+	border-top:solid 1px #c0c0c0;
+	font:italic normal 230% 'Times New Roman',Times,serif,"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	letter-spacing:0.2em;
+	margin:0;
+	padding:15px 10px 15px 60px;
+	box-shadow:-10px 0 1px #fff, /*左边阴影*/  
+	 10px 0 1px #fff, /*右边阴影*/  
+     0 -10px 1px #fff, /*顶部阴影*/  
+     0 10px 8px #c0c0c0; /*底边阴影*/ 
+	-webkit-box-shadow:0 0 10px #000;  
+    -moz-box-shadow:0 0 10px #000;  
+
+}
+#headerimg .logo{
+	font-size: 15px;
+}
+#headerimg{
+	position: relative;
+}
+#container{
+	float: left;
+	width: 50%;
+    margin-left: 20%;
+}
+#single-container{
+	float: left;
+	width: 60%;
+    margin-left: 20%;
+}
+#moban{
+	float: left;
+	width: 750px;
+}
+.post{
+	padding: 10px 0 10px 0;
+
+}
+.post h2{
+	font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;/*class为post的选择器定义h2不会影响其他*/
+	font-size: 18px;
+}
+.sidebar{
+	float: left;
+	width: 240px;
+	background: #eeeeee;
+	margin:0 0 0 10px; 
+	display: inline;/*修正IE双倍页边距*/
+}
+.sidebar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 10px 0 10px;
+}
+.sidebar ul li{
+	padding: 10px 0 10px 0;
+}
+.sidebar ul li h2{
+	font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	font-size: 16px;
+}
+.sidebar ul ul li{
+	padding: 0;
+	line-height: 24px;
+}
+table#wp-calendar{
+	width: 100%;
+}
+#footer{
+	margin-top:10px;
+	background-color:#808080;
+	clear: both;
+	float: left;
+	width: 100%;
+	padding: 15px 0 15px 0;
+	-webkit-box-shadow:0 0 10px #000;  
+    -moz-box-shadow:0 0 10px #000; 
+    box-shadow:0 0 5px;
+    text-align: center;
+}
+#footer p{
+	line-height: 18px;
+}
+.entry{
+	line-height: 24px;/内容行高/
+}
+p.postmetadata{
+	border-top: 1px solid #ccc;
+	margin: 10px 0 0 0 ;
+}
+
+.navigation{
+	padding: 10px 0 0 0;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+}
+.navmenu{
+	box-shadow: 3px 3px 3px; 
+}
+ .navmenu li.menu-item, .navmenu li.menu-item-type-custom, .navmenu li.menu-item-object-custom, .navmenu li.current-menu-item, .navmenu li.current_page_item, .navmenu li.menu-item-home{
+	display: inline;
+	padding: 5px 0 5px 0;
+	margin-left: 10px;
+	font-size: 15px;	
+}
+.navmenu ul li:hover a{
+	color: #ff0000;
+}
+.navmenu a:link{
+	text-decoration: none;
+}
+.menu-mymenu-container{
+	background: #ff8040;
+	padding: 1px;	
+	margin-bottom: 20px;
+}
+.menu{
+	margin-left: 0;
+}
+.navmenu ul.sub-menu{
+	display: none;/*二级导航初始化，不显示*/
+	margin: 0;
+	padding: 0;
+}
+.navmenu ul.sub-menu li{
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+.navmenu ul.sub-menu li a{
+	width: 100px;
+}
+.comments-template{
+
+	margin: 10px 0 0;
+
+	border-top: 1px solid #ccc;
+
+	padding: 10px 0 0;
+
+}
+.comments-template ol{
+
+	margin: 0;
+
+	padding: 0 0 15px;
+
+	list-style: none;
+
+}
+.comments-template ol li{
+
+	margin: 10px 0 0;
+
+	line-height: 18px;
+
+	padding: 0 0 10px;
+
+	border-bottom: 1px solid #ccc;
+
+}
+.comments-template h2, .comments-template h3{
+
+	font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+
+	font-size: 16px;
+
+}
+
+.commentmetadata{
+
+	font-size: 12px;
+
+}
+.comments-template p.nocomments{
+
+	padding: 0;
+
+}
+.comments-template textarea{
+
+	font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+
+	font-size: 12px;
+
+}
+/*pagenavi*/  
+.page_navi{
+	width:100%;
+	height: 34px;
+	line-height: 34px;
+	text-align:center;
+	overflow:hidden;
+	padding-top: 10px;
+	position:relative;
+	background: #F4F4F4;
+	border-top: 1px solid #E8E8E8;
+	}    
+.page_navi a{
+	display: inline-block;margin-right: 8px;height: 24px;line-height:24px;padding:0 8px;background:#e4e5e1;color: #626262;font-size:14px;
+	}  
+.page_navi a:hover,.page_navi .current{
+	color:#fff;background: #8c9fcc url(jb.png) no-repeat center top;text-decoration: none;
+	}  
+.page_navi .page-numbers{
+	position: absolute;top: 5px;left: 15px;letter-spacing: 1px;font-family: 微软雅黑;color: #424242;
+	}
+
+body{
+	margin:0;
+ }
+ #progress {
+                position:fixed;
+                height: 2px;
+                background:#ff0000;
+                transition:opacity 500ms linear;
+            }
+            #progress.done {
+                opacity:0;
+            }
+            #progress span {
+                position:absolute;
+                height:2px;
+                -webkit-box-shadow:#2085c5 1px 0 6px 1px;
+                -webkit-border-radius:100%;
+                opacity:1;
+                width:150px;
+                rightright:-10px;
+                -webkit-animation:pulse 2s ease-out 0s infinite;
+            }
+            @-webkit-keyframes pulse {
+                30% {
+                    opacity:.6;
+                }
+                60% {
+                    opacity:0;
+                }
+                100% {
+                    opacity:.6;
+                }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
